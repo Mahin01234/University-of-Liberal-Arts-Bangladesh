@@ -1,44 +1,123 @@
-#include <stdio.h>
-#define MAX 100
+#include<stdio.h>
+#define MAX 10
 
-int stack[MAX];
-int top = -1;
 
-// Push function
-void push(int x) {
-    if (top == MAX - 1) {
-        printf("Stack Overflow!\n");
-    } else {
-        top++;
-        stack[top] = x;
-    }
+
+
+int stack [MAX]  ;
+int top = -1 ;
+
+
+
+
+void push (int x)
+{
+
+    if (top == MAX - 1)
+    {
+        printf ("overflow\n")  ;
+     }
+
+     else
+     {
+
+         top = top + 1 ;
+         stack [top] = x ;
+     }
 }
 
-// Display function (LIFO order)
-void display() {
-    if (top == -1) {
-        printf("Stack is empty!\n");
-    } else {
-        printf("Stack push :\n");
-        for (int i = top; i >= 0; i--) {
-            printf("%d\n", stack[i]);
+
+
+
+
+
+
+void pop ()
+{
+    if ( top == -1)
+    {
+
+        printf("underflow") ;
+    }
+
+    else
+    {
+
+        int value = stack [top] ;
+
+        top = top - 1 ;
+
+
+        printf ("the pop : %d\n " , value) ;
+    }
+
+}
+
+
+
+
+
+void display ()
+{
+
+    if (top == -1)
+    {
+
+        printf ("empty") ;
+    }
+
+    else
+    {
+
+        printf ("Stack the element : \n") ;
+
+        for (int i = top ; i >= 0 ; i-- )
+        {
+
+            printf ("%d\n" , stack[i] )  ;
         }
     }
 }
 
-int main() {
-    int n, x;
 
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
 
-    printf("Enter %d values:\n", n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &x);
-        push(x);
+
+
+
+int main ()
+{
+
+    int n , x ;
+
+
+    printf ("enter the element : ") ;
+    scanf("%d" , &n) ;
+
+
+    printf ("enter the %d value\n " , n ) ;
+
+
+    for (int i = 0 ; i < n ; i++)
+    {
+
+        scanf ("%d" , &x) ;
+
+        push (x) ;
     }
 
-    display();
 
-    return 0;
+
+    pop() ;
+    pop() ;
+
+
+
+
+    display () ;
+
+
+
+
+
+    return 0 ;
 }
