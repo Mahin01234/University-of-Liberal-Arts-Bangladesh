@@ -10,8 +10,7 @@
 
 Here is a focused breakdown of the primary topics and implementations covered in each semester folder.
 
-### 📌 3rd Semester – Data Structures (CSE 1302)
-
+### 📌 3rd Semester – Data Structures 
 This semester is all about mastering **Data Structures** in C to organize and store data efficiently. The codes here showcase my understanding of both linear and non-linear structures.
 
 *   **Searching & Sorting:** Implementations of Linear Search, Binary Search, Bubble Sort, Selection Sort, Insertion Sort, and Heap Sort.
@@ -19,7 +18,7 @@ This semester is all about mastering **Data Structures** in C to organize and st
 *   **Stacks & Queues:** Manual implementation of Stack (`stack_1.c`) and Queue (`Queue.c`, `Circular_queue.c`) data structures to understand their LIFO and FIFO behavior.
 *   **Real-World System:** An integrated project creating a terminal-based School Examination System (`242014165_School_Examination_System.c`).
 
-### 📌 4th Semester – Algorithms (CSE 1303)
+### 📌 4th Semester – Algorithms 
 
 The courses in the 4th semester shift focus toward **Algorithm Design and Analysis**. The files in this directory are my implementation of various algorithmic concepts.
 
