@@ -1,6 +1,6 @@
 # 3rd Semester - Data Structure.
 # 4th Semester - Algorithm.
-
+# 5th Semester - Object-Oriented Programming.
 
 
 
@@ -25,6 +25,11 @@ The courses in the 4th semester shift focus toward **Algorithm Design and Analys
 *   **Algorithm Implementation:** Core algorithm code practice across multiple files (`1.c`, `2.c`, `3.c`).
 *   **Graded Solutions:** Specific assignments (`ASS_1.c`, `ASS_3.c`) demonstrating advanced problem-solving with algorithms.
 *   **Open-Ended Project:** The `Algorithm_Open_End.pdf` report and its accompanying code (`Algorithm_Oper_End.c`), which involved tackling a non-standard computational challenge.
+
+
+
+### 📌 5th Semester - Object-Oriented Programming
+
 
 ---
 
