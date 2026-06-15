@@ -28,7 +28,24 @@ The courses in the 4th semester shift focus toward **Algorithm Design and Analys
 
 
 
-### 📌 5th Semester - Object-Oriented Programming
+# 🗃️ 5th Semester – Lab Manuals & Java Practice
+
+This directory contains lab manuals and Java practice code for 5th‑semester courses at the **University of Liberal Arts Bangladesh (ULAB)** .
+
+## 📁 File List
+
+| File | Description |
+|------|-------------|
+| `Course.90docx.pdf` | Lab manual PDF covering experiments, theory, and assignments. |
+| `Basic.java` | Simple Java program with basic syntax and output. |
+| `Print_Variables.java` | Shows how to print variable values alongside text. |
+| `Rectangle.java` | Calculates area and perimeter of a rectangle using user input. |
+| `Student.java` | Student class with name, ID, CGPA, and display method. |
+| `Employee.java` | Employee model with name, ID, salary, and bonus calculation. |
+| `Bank.java` | Basic banking operations: deposit, withdraw, balance check. |
+| `Movie.java` | Movie class with title, genre, rating, and encapsulation. |
+| `MovieDetails.java` | Driver class to create and display `Movie` objects. |
+
 
 
 ---
